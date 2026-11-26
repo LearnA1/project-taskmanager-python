@@ -1,11 +1,11 @@
 
-# Todo List Manager Project
+# Task Manager (Python)
 
-#### Video Demo: [Link to Video](https://youtu.be/n5WrlCtDvek)
+A command-line task manager. You can add, view, filter, and remove tasks, and chart them by priority. Tasks are saved to a local JSON file, and the core functions are covered by `pytest` tests.
 
-#### Description:
+[Video demo](https://youtu.be/n5WrlCtDvek)
 
-This project is a simple task management tool that allows users to add, view, and remove tasks. It includes features for task visualization by priority and provides testing using `pytest`.
+**Built with:** Python, matplotlib, pytest
 
 ## Table of Contents
 
@@ -14,8 +14,7 @@ This project is a simple task management tool that allows users to add, view, an
    - [Interactive Task Manager](#interactive-task-manager)
 3. [Running the Tests](#running-the-tests)
 4. [Visualizing Tasks](#visualizing-tasks)
-5. [Images and Screenshots](#images-and-screenshots)
-6. [License](#license)
+5. [Screenshots](#screenshots)
 
 ---
 
@@ -26,13 +25,13 @@ To set up and run this project, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/AICodingGenius/project-todolist-python.git
-   cd todo-list-manager
+   git clone https://github.com/LearnA1/project-taskmanager-python.git
+   cd project-taskmanager-python
    ```
 
 2. **Install Dependencies**
 
-   Make sure you have `Python 3` and `pip` installed. You can install the required packages using the `requirements.txt` file:
+   Requires Python 3 and `pip`. Dependencies (`matplotlib`, `pytest`) are listed in `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt
@@ -43,7 +42,7 @@ To set up and run this project, follow these steps:
    The project directory should have the following structure:
 
    ```
-   todo-list-manager/
+   project-taskmanager-python/
    ├── project.py           # Main source code for the task manager
    ├── test_project.py      # Test file using pytest
    ├── requirements.txt     # List of dependencies
@@ -111,18 +110,10 @@ This will generate a bar chart showing the count of tasks for each priority (e.g
 
 ---
 
-## Images and Screenshots
-
-Below are some images and screenshots to illustrate the different functionalities:
+## Screenshots
 
 ### Task Visualization
 ![Task Visualization](images/task_visualization.png)
 
 ### Running Tests
 ![Running Tests](images/running_tests.png)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
